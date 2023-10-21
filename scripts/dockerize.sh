@@ -19,3 +19,5 @@ docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
 docker build -t $REPOSITORY:$TAG -t $REPOSITORY:$VERSION_TAG .
 docker push $REPOSITORY:$TAG
 docker push $REPOSITORY:$VERSION_TAG
+
+##push 
